@@ -38,19 +38,16 @@ while True:
         else:
             break
 
-    print("\n==========================================================")
+  
     print("                    E-PROFILE CẬP NHẬT                    ")
-    print("==========================================================")
     print(f" - ID: {employee_id}")
     print(f" - Name: {employee_name}")
     print(f" - Salary: {current_salary:,.0f} VND")
     print(f" - KPI Score: {performance_score} / 5.0")
     print(f" - Experience: {experience_years} years")
-    print("==========================================================")
 
     print("\n==========================================================")
     print("                      IT SYSTEM LOG                       ")
-    print("==========================================================")
     print(f" employee_id        | {type(employee_id)}")
     print(f" employee_name      | {type(employee_name)}")
     print(f" current_salary     | {type(current_salary)}")
