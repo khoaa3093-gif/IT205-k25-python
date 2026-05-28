@@ -1,6 +1,6 @@
 price_bill =   int(input("Nhập đơn giá: "))
 Quantity_purchased = int(input("Nhập số lượng mua: "))
-total_price = price_bill + Quantity_purchased
+total_price = price_bill * Quantity_purchased
 print("Tổng tiền phải trả: ", total_price)
 if total_price > 1000000:
     discount = total_price * 0.1
