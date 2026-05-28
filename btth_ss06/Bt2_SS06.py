@@ -1,5 +1,3 @@
-password = "123456"
-
 for i in range(3):
         password = input("Nhập mật khẩu: ")
         if password == "123456":
