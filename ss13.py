@@ -11,7 +11,7 @@ while True:
 3. Xóa xe khỏi bãi ( khi ra xe)
 4. Thoát chương trình
 ====================================
-Vui lòng chọn một tùy chọn (1-4):""").strip()
+Vui lòng chọn một tùy chọn (1-4):""")
 
     if user_choice == "4":
         print("Cảm ơn bạn đã sử dụng dịch vụ!")
